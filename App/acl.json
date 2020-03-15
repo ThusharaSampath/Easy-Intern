@@ -1,0 +1,106 @@
+{
+    "Guest": {
+        "denied": {},
+        
+        "Register": [
+            "login",
+            "register"
+        ],
+        "Restricted": [
+            "*"
+        ]
+    },
+    "LogedIn-Student": {
+        "denied": {
+            "Register": [
+                "register",
+                "login"
+            ]
+        },
+        "Home": [
+            "*"
+        ],
+        "Register": [
+            "logout",
+            "editprofile"
+        ],
+        "Companies": [
+            "*"
+        ],
+        "Notification": [
+            "*"
+        ],
+        "Settings": [
+            "*"
+        ],
+        "Profile": [
+            "*"
+        ],
+        "Jobs": [
+            "application"
+        ],
+        "Search":[
+            "*"
+        ]
+    },
+    "LogedIn-Company": {
+        "denied": {
+            "Register": [
+                "register",
+                "login"
+            ]
+        },
+        "Home": [
+            "*"
+        ],
+        "Register": [
+            "logout",
+            "editprofile"
+        ],
+        "Notification": [
+            "*"
+        ],
+        "Settings": [
+            "*"
+        ],
+        "Profile": [
+            "*"
+        ],
+        "Jobs": [
+            "*"
+        ],
+        "Search":[
+            "*"
+        ]
+    },
+    "LogedIn-Admin": {
+        "denied": {
+            "Register": [
+                "register",
+                "login"
+            ],
+            "Jobs": [
+                "addjob"
+            ]
+        },
+        "Home": [
+            "*"
+        ],
+        "Register": [
+            "logout",
+            "editprofile"
+        ],
+        "Notification": [
+            "*"
+        ],
+        "Companies": [
+            "*"
+        ],
+        "Settings": [
+            "*"
+        ],
+        "Profile": [
+            "*"
+        ]
+    }
+}

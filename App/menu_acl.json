@@ -1,0 +1,13 @@
+{
+    "Home": "Home",
+    "Companies": "companies",
+    "Add Jobs": "jobs",
+    "Notification": "notification",
+    "USERNAME": {
+        "Login": "register/login",
+        "Register": "register/register",
+        "Profile" : "profile",
+        "Edit Profile" : "register/editprofile",
+        "Logout": "register/logout"
+    }
+}
